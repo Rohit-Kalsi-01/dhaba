@@ -1,0 +1,144 @@
+#navlist{
+    list-style: none;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.contier{
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+.navcontier{
+    width: 100vw;
+    /* background-color: rgba(84, 84, 155, 0.671); */
+    background-color: #5b86e5;
+  
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+   
+}
+nav{
+    width: 100vw;
+    overflow-x: none;
+
+}
+#p1{
+    font-size: 3rem;
+    color: antiquewhite;
+}
+#navitem{
+    display: flex;
+    gap: 50px;
+    font-size: 2rem;
+ 
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+.footerbox{
+    background-color: #5b86e5;
+    text-align: center;
+    color: aliceblue;
+    min-height: 40px;
+}
+.footerbox p{
+    
+    color: aliceblue;
+    font-size: 2.7rem;
+}
+.contactbox{
+    width: 50%;
+    margin: auto;
+    /* border: 2px solid black; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    box-shadow: 15px 15px 15px 8px black;
+}
+   
+.right img{
+    height: 350px;
+    width: 250px;
+    border-radius: 20px;
+    transition: all linear 0.5s 0s;
+    box-shadow: 3px 2px 2px black;
+}
+.right:hover{
+    transform: scale(1.2);
+
+}
+.right:hover .over{
+    opacity: 1;
+
+}
+.right{
+    position: relative;
+    transition: all 0.5s linear 0s;
+  
+}
+.right .over{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(39, 37, 37, 0.555);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.5s linear 0s;
+   
+
+}
+
+.right .over span{
+    color: white;
+    font-size: 1.5rem;
+
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+    margin-bottom: 0px;
+}
+.item1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+    margin-top: 18px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.left h2{
+    font-size: 3rem;
+}
+.ullist{
+    font-size: 1.4rem;
+}
+.ollist{
+    font-size: 1.4rem;
+}
